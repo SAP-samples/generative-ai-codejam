@@ -1,4 +1,4 @@
-## [1/10] Deploy a Proxy for a Large language Model on SAP AI Core
+## [1/3] Create a Configuration to Deploy a Proxy for a Large language Model on SAP AI Core
 
 Open the ML Operations tab, go to Scenarios and select the foundation-models scenario. This is the only pre-configered scenario from SAP. For all other custom machine learning models you would need to create your own scenario.
 
@@ -33,6 +33,8 @@ Review the configuration and click create.
 
 ![Create configuration 4](images/2024-07-16_16-43-35.png)
 
+## [2/3] Deploy a Proxy for a Large language Model on SAP AI Core
+
 Click on Create Deployment to create a deployment for that configuration. This will not actually deploy the model but it will deploy a proxy that will return a URL for you to use to query the large language model you specified in the configuration.
 
 ![Create deployment 1](images/2024-07-16_16-43-57.png)
@@ -53,3 +55,5 @@ Using the URL and the client id and the client secret from the SAP AI Core servi
 
 ![Create deployment 3](images/2024-07-16_16-51-40.png)
 
+## [3/3] Deploy a Proxy for an Embedding Model on SAP AI Core
+To implement a retrieval augmented generation (RAG) use case we also need to deploy an embedding model. The embeddings for our text chunks will then be stored in a vector database (e.g. HANA Vector Store). To deploy the embedding model repeat the steps above using the model name: ```sh text-embedding-ada-002```
