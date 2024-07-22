@@ -21,7 +21,10 @@ Enter a configuration name of your choice, select the foundation-models scenrari
 
 ![Create configuration 1](images/2024-07-16_16-42-19.png)
 
-Paste the model name ```sh gpt-35-turbo``` into the modelName field and click next.
+Paste the model name gpt-35-turbo into the modelName field and click next.
+```sh
+gpt-35-turbo
+```
 
 ![Create configuration 2](images/2024-07-16_16-42-54.png)
 
