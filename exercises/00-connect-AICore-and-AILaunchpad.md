@@ -1,11 +1,11 @@
 # Setup SAP AI Launchpad and SAP AI Core
 
-## [1/10] Open SAP Business Technology Platform
+## [1/4] Open SAP Business Technology Platform
 [BTP cockpit](https://emea.cockpit.btp.cloud.sap/cockpit)
 
 Navigate to the Subaccount: generative AI CodeJam
 
-## [2/10] Open SAP AI Launchpad and connect to SAP AI Core
+## [2/4] Open SAP AI Launchpad and connect to SAP AI Core
 ![BTP Cockpit](images/2024-07-17_14-42-34.png)
 
 In Instances and Subscriptions check whether you see an SAP AI Core instance and an SAP AI Launchpad subscription.
@@ -23,4 +23,12 @@ With SAP AI Launchpad you can administer all your machine learning operations. Y
 ![SAP AI Core service key](images/2024-07-17_14-47-59.png)
 
 Open SAP AI Launchpad, in this subaccount the connection is already established. Otherwise you would have to add a new runtime using the SAP AI Core service key information.
+
+## [3/4] Create a new resource group for your team
 👉 Make sure to create a new resource group for your team. DO NOT USE THE DEFAULT RESOURCE GROUP!
+
+![User](images/2024-07-22_10-47-54.png)
+
+👉 Select your resource group. If the refresh on the page does not work, refresh it using the browser refresh.
+
+![User](images/2024-07-22_10-51-07.png)
