@@ -56,4 +56,7 @@ Using the URL and the client id and the client secret from the SAP AI Core servi
 ![Create deployment 3](images/2024-07-16_16-51-40.png)
 
 ## [3/3] Deploy a Proxy for an Embedding Model on SAP AI Core
-To implement a retrieval augmented generation (RAG) use case we also need to deploy an embedding model. The embeddings for our text chunks will then be stored in a vector database (e.g. HANA Vector Store). To deploy the embedding model repeat the steps above using the model name: ```sh text-embedding-ada-002```
+To implement a retrieval augmented generation (RAG) use case we also need to deploy an embedding model. The embeddings for our text chunks will then be stored in a vector database (e.g. HANA Vector Store). To deploy the embedding model repeat the steps above using the model name: 
+```sh
+text-embedding-ada-002
+```
