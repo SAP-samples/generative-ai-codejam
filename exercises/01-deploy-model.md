@@ -48,3 +48,8 @@ Click Create.
 Once the deployment is running you will receive a URL to query the model. Refresh the page until the URL appears. This can take a couple of minutes.
 
 ![Create deployment 3](images/2024-07-16_16-44-49.png)
+
+Using the URL and the client id and the client secret from the SAP AI Core service key, you could now already query the model using any programming language or any API platform.
+
+![Create deployment 3](images/2024-07-16_16-51-40.png)
+
