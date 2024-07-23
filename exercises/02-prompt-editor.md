@@ -10,3 +10,4 @@ In the Chat Context tab right under Context History you can set the number of me
 ![Chat](images/2024-07-22_15-40-33.png)
 
 ## [2/2] Use the Prompt Editor in Generative AI Hub
+
