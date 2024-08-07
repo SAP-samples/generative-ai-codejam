@@ -34,7 +34,8 @@ The instructor will start you on the first exercise, and that's the only one you
 03. [Setup your Python environment](exercises/03-setup-python-environment.md)
 04. [Create embeddings for your document chunks](exercises/04-create-embeddings.ipynb)
 05. [Prompt an LLM](exercises/05-prompt-llm.ipynb)
-06. [Implement the RAG use case](exercises/06-RAG.ipynb)
+06. [Store embeddings](exercises/06-store-embeddings-hana.ipynb)
+07. [Implement the RAG use case](exercises/07-RAG.ipynb)
 
 ## Feedback
 
