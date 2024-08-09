@@ -1,51 +1,47 @@
 # Setup SAP Business Application Studio and a dev space
-
-## Use SAP Business Technology Platform
-It is assumed that you have access to the SAP Business Technology Platform - either via your organization or via a free trial, as described in [prerequisites](../prerequisites.md).
-
-👉 If you are using SAP BTP Trial, then open it: https://hanatrial.ondemand.com/
+> [SAP Business Application Studio](https://help.sap.com/docs/bas/sap-business-application-studio/what-is-sap-business-application-studio) is based on Code-OSS, an open source used for building Visual Studio Code. Available as a cloud service, SAP Business Application Studio provides a desktop-like experience similar to leading IDEs, with command line and optimized editors. At the heart of SAP Business Application Studio are the dev spaces. The dev spaces are comparable to isolated virtual machines in the cloud containing tailored tools and preinstalled runtimes per business scenario, such as SAP Fiori, SAP S/4HANA extensions, Workflow, Mobile and more. This simplifies and saves time in setting up your development environment and allows you to efficiently develop, test, build, and run your solution locally or in the cloud.
 
 ## Open SAP Business Application Studio
-👉 If you are using the [SAP BTP free trial](https://account.hanatrial.ondemand.com/trial/#/home/trial), then open [SAP Business Application Studio trial](https://triallink.us10.trial.applicationstudio.cloud.sap/) from the "Quick Tool Access" section.
+👉 Go back to your [BTP cockpit](https://emea.cockpit.btp.cloud.sap/cockpit).
 
-![Open BAS Trial](images/setup0010.png)
+👉 Navigate to `Instances and Subscriptions` and open `SAP Business Application Studio`.
 
-Should you have issues opening SAP Business Application Studio (for example when you have had the account for a long time), then check the steps in [this tutorial - Set Up SAP Business Application Studio for Development](https://developers.sap.com/tutorials/appstudio-onboarding.html)
+![Clone the repo](images/BTP_cockpit_BAS.png)
+
 
 ## Create a new Dev Space for CodeJam exercises
 
-👉 Go to your instance of SAP Business Application Studio (BAS).
+👉 Create a new Dev Space.
 
-👉 For this SAP CodeJam exercise create a new Dev Space called `genAICodeJam` of kind **Basic** with an additional extension **Python Tools** in BAS:
+![Create a Dev Space 1](images/bas.png)
 
-|Screen element|Value|
-|-|-|
-|Dev Space name|`genAICodeJam`|
-|Kind|**Basic**|
-|Additional extension|**Python Tools**|
+👉 Enter the name of the Dev space `GenAICodeJam` and select `SAP HANA Database Explorer` from the Additional SAP Extensions.
 
-![Create a Dev Space](images/2024-07-23_15-17-11.png)
+👉 Click **Create Dev Space**.
+
+![Create a Dev Space 2](images/create_dev_space.png)
 
 You should see the dev space **STARTING**.
 
-![Dev Space is Starting](images/2024-07-23_15-18-00.png)
+![Dev Space is Starting](images/dev_starting.png)
 
-👉 Wait for the dev space to get into the **RUNNING** state and then open that dev space.
+👉 Wait for the dev space to get into the **RUNNING** state and then open it.
 
-![Dev Space is Running](images/2024-07-23_15-18-00copy.png)
+![Dev Space is Running](images/dev_running.png)
 
 ## Clone the exercises from the Git repository
 
-👉 Once you opened your dev space in BAS, use one of the available options to clone this Git repository with exercises using the URL below: 
+👉 Once you opened your dev space in BAS, use one of the available options to clone this Git repository with exercises using the URL below:
+
 ```sh
 https://github.com/SAP-samples/generative-ai-codejam.git
 ```
 
-![Clone the repo](images/setup0030.png)
+![Clone the repo](images/clone_git.png)
 
 👉 Click **Open** to open a project in the Explorer view.
 
-![Open a project](images/setup0040.png)
+![Open a project](images/clone_git_2.png)
 
 ## Open the Workspace
 
@@ -53,20 +49,54 @@ The cloned repository contains a file `codejam.code-workspace` and therefore you
 
 👉 Click **Open Workspace**.
 
-![Automatic notification to open a workspace](images/setup0042.png)
+![Automatic notification to open a workspace](images/open_workspace.png)
 
 ☝️ If you missed the previous dialog, you can go to the BAS Explorer, open the `codejam.code-workspace` file, and click **Open Workspace**.
 
 You should see:
 * **CODEJAM** as the workspace at the root of the hierarchy of the project, and
-* **`generative-ai-codejam`** as the name of the top level folder.
+* `generative-ai-codejam` as the name of the top level folder.
 
-![Open a workspace](images/2024-07-24_07-46-46.png)
+👉 You can close the **Get Started** tab.
+
+![Open a workspace](images/workspace.png)
 
 ## Check that the required extensions are installed
 
-👉 Go to **Extensions** using the activity bar (the left-most bar in the IDE) and check whether **Python** and **Jupyter** extensions are installed already.
+👉 Go to `Extensions` using the activity bar (the left-most bar in the IDE)
 
-👉 If they are not installed, install them now.
+👉 Install `Python` and `Jupyter` extensions.
 
-![Extensions to install](images/2024-07-24_07-47-03.png)
+![Extensions to install](images/extensions.png)
+
+## Configure the Connection to Generative AI Hub
+
+👉 Go back to your [BTP cockpit](https://emea.cockpit.btp.cloud.sap/cockpit).
+
+👉 Navigate to `Instances and Subscriptions` and open the SAP AI Core service key.
+
+![Extensions to install](images/service_key.png)
+
+👉 Click **Copy JSON**.
+
+👉 Return to BAS and create a new file `.aicore-config.json` in the `generative-ai-codejam/` directory.
+
+👉 Paste the service key into `generative-ai-codejam/.aicore-config.json`.
+
+```json
+{
+    "serviceurls": {
+      "AI_API_URL": "https://api.ai.prod.us-east-1.aws.ml.hana.ondemand.com"
+    },
+    "appname": "e9ff8604-ba8e-4322-91e4-c5550722de44!b305299|aicore!b164",
+    "clientid": "sb-e9ff8604-ba8e-4322-91e4-c5550722de44!b305299|aicore!b164",
+    "clientsecret": "",
+    "identityzone": "cap-ai-codejam-op6zhda1",
+    "identityzoneid": "6088766d-dcc4-4e56-972f-652baad796be",
+    "url": "https://cap-ai-codejam-op6zhda1.authentication.us10.hana.ondemand.com"
+  }
+```
+
+> From now on the exercises continue in BAS.
+
+[Next exercise](04-prompt-llm.ipynb)
