@@ -69,7 +69,7 @@ You should see:
 
 ![Extensions to install](images/extensions.png)
 
-## Configure the Connection to Generative AI Hub
+## Configure the connection to Generative AI Hub
 
 👉 Go back to your [BTP cockpit](https://emea.cockpit.btp.cloud.sap/cockpit).
 
@@ -95,6 +95,18 @@ You should see:
     "identityzoneid": "6088766d-dcc4-4e56-972f-652baad796be",
     "url": "https://cap-ai-codejam-op6zhda1.authentication.us10.hana.ondemand.com"
   }
+```
+
+## Install the Python SDK for Generative AI Hub
+
+👉 Start a new Terminal.
+
+![Extensions to install](images/start_terminal.png)
+
+👉 Install the Generative AI Hub [Python SDK](https://pypi.org/project/generative-ai-hub-sdk/) using the following `pip install` command.
+
+```bash
+pip install generative-ai-hub-sdk[langchain]
 ```
 
 > From now on the exercises continue in BAS.
