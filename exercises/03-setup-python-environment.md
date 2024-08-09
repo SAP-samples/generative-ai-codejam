@@ -97,11 +97,25 @@ You should see:
   }
 ```
 
-## Install the Python SDK for Generative AI Hub
+## Create a virtual environment and install the Python SDK for Generative AI Hub
 
 👉 Start a new Terminal.
 
 ![Extensions to install](images/start_terminal.png)
+
+👉 Create a virtual environment using the following command:
+
+```bash
+python3 -m venv ~/projects/generative-ai-codejam/env 
+```
+
+👉 Activate the `venv` environment like this and make sure it is activated:
+
+```bash
+python3 -m venv ~/projects/generative-ai-codejam/env 
+```
+
+![venv](images/venv.png)
 
 👉 Install the Generative AI Hub [Python SDK](https://pypi.org/project/generative-ai-hub-sdk/) using the following `pip install` command.
 
