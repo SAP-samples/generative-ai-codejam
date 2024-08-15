@@ -1,11 +1,3 @@
-# Containing Files
-
-1. The LICENSE file:
-In most cases, the license for SAP sample projects is `Apache 2.0`.
-
-2. The .reuse/dep5 file: 
-The [Reuse Tool](https://reuse.software/) must be used for your samples project. You can find the .reuse/dep5 in the project initial. Please replace the parts inside the single angle quotation marks < > by the specific information for your repository.
-
 # CodeJam - Getting started with Generative AI Hub on SAP AI Core
 
 <!--- Register repository https://api.reuse.software/register, then add REUSE badge:
@@ -32,8 +24,8 @@ The instructor will start you on the first exercise, and that's the only one you
 01. [Deploy a Large Language Model (LLM) on SAP AI Core](exercises/01-deploy-model.md)
 02. [Explore the Prompt Editor in SAP AI Launchpad](exercises/02-explore-genai-hub.md)
 03. [Setup your Python environment](exercises/03-setup-python-environment.md)
-04. [Create embeddings for your document chunks](exercises/04-create-embeddings.ipynb)
-05. [Prompt an LLM](exercises/05-prompt-llm.ipynb)
+04. [Prompt an LLM](exercises/04-prompt-llm.ipynb)
+05. [Create embeddings for your document chunks](exercises/05-create-embeddings.ipynb)
 06. [Store embeddings](exercises/06-store-embeddings-hana.ipynb)
 07. [Implement the RAG use case](exercises/07-RAG.ipynb)
 

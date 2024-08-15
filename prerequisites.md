@@ -17,13 +17,3 @@ If you are experienced in using Jupyter or Microsoft VSCode, then you could exec
 * A Chromium-based web browser, like Google Chrome, MS Edge, Vivaldi, Brave etc.
 * Unfortunately there are some issues, when using a Firefox web browser.
 
-## Services
-
-You should have your own access to a subscription to the SAP Business Application Studio (BAS). 
-
-If you do not have access to BAS in your organization's account (eg. of your employer or your university), then you can use one in either SAP BTP free trial (for individuals) or free tier (for organizations):
-
-* Get a free SAP Business Technology Platform trial account, if you don't already have one:
-  * [Tutorial: Get a Free Account on SAP BTP Trial](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
-* Get an SAP Business Technology Platform account with a free tier as another alternative:
-  * [Tutorial: Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html)
