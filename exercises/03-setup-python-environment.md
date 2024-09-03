@@ -112,7 +112,7 @@ python3 -m venv ~/projects/generative-ai-codejam/env
 👉 Activate the `venv` environment like this and make sure it is activated:
 
 ```bash
-python3 -m venv ~/projects/generative-ai-codejam/env 
+source ~/projects/generative-ai-codejam/env/bin/activate
 ```
 
 ![venv](images/venv.png)
