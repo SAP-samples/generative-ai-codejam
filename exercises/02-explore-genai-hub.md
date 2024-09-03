@@ -96,7 +96,7 @@ At this point, you will know how to use the user interface of Generative AI Hub 
 ## Further reading
 
 * [Generative AI Hub on SAP AI Core - Help Portal (Documentation)](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/generative-ai-hub-in-sap-ai-core-7db524ee75e74bf8b50c167951fe34a5)
-* [This](https://www.promptingguide.ai/) is a good recourse if you want to know more about prompt engineering.
+* [This](https://www.promptingguide.ai/) is a good resource if you want to know more about prompt engineering.
 * [This](https://developers.sap.com/tutorials/ai-core-generative-ai.html) is a good tutorial on how to prompt LLMs with Generative AI Hub.
 
 ---
