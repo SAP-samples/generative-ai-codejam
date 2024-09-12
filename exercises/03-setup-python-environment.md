@@ -15,7 +15,7 @@
 
 ![Create a Dev Space 1](images/bas.png)
 
-👉 Enter the name of the Dev space `GenAICodeJam` and select `SAP HANA Database Explorer` from the Additional SAP Extensions.
+👉 Enter the name of the Dev space `GenAICodeJam`, select `basic` application and `SAP HANA Database Explorer` from the Additional SAP Extensions.
 
 👉 Click **Create Dev Space**.
 
@@ -120,7 +120,19 @@ source ~/projects/generative-ai-codejam/env/bin/activate
 👉 Install the Generative AI Hub [Python SDK](https://pypi.org/project/generative-ai-hub-sdk/) using the following `pip install` command.
 
 ```bash
-pip install generative-ai-hub-sdk[langchain]
+pip install generative-ai-hub-sdk[all]
+```
+
+👉 We will also need the [HANA client for Python](https://pypi.org/project/hdbcli/).
+
+```bash
+pip install hdbcli
+```
+
+👉 And the configparser [HANA client for Python](https://pypi.org/project/hdbcli/).
+
+```bash
+pip install hdbcli
 ```
 
 > From now on the exercises continue in BAS.
