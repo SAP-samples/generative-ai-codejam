@@ -106,7 +106,7 @@ You should see:
 👉 Create a virtual environment using the following command:
 
 ```bash
-python3 -m venv ~/projects/generative-ai-codejam/env 
+python3 -m venv ~/projects/generative-ai-codejam/env --upgrade-deps
 ```
 
 👉 Activate the `venv` environment like this and make sure it is activated:
