@@ -129,12 +129,6 @@ pip install generative-ai-hub-sdk[all]
 pip install hdbcli
 ```
 
-👉 And the configparser [HANA client for Python](https://pypi.org/project/hdbcli/).
-
-```bash
-pip install hdbcli
-```
-
 > From now on the exercises continue in BAS.
 
 [Next exercise](04-prompt-llm.ipynb)
