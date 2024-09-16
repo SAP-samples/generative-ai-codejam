@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
+		"python.defaultInterpreterPath": "~/projects/generative-ai-codejam/env/bin/python3",
 		"jupyter.kernels.excludePythonEnvironments": [
 			"/bin/python3",
 			"/usr/bin/python3",
