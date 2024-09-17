@@ -1,8 +1,12 @@
-# Exercise 03 - Explore Generative AI Hub in SAP AI Launchpad
+# Explore Generative AI Hub in SAP AI Launchpad
 
-In order to leverage large language models (LLMs) or foundation models in your applications you can use Generative AI Hub on SAP AI Core. Like most other LLM applications Generative AI Hub is pay-per-use. Generative AI Hub offers all major models on the market. You can switch between them and compare results and pick the model for your use case that works best. SAP has strict data privacy contracts with LLM providers to ensure that your data is safe.
+To leverage large language models (LLMs) or foundation models in your applications, you can use the Generative AI Hub on SAP AI Core. Like most other LLM applications, Generative AI Hub operates on a pay-per-use basis.
 
-You can access your deployed models either using the Python SDK, the cap-llm-plugin, any programming language or API platform OR you can use the user interface in SAP AI Launchpad. We offer the `Chat` interface or the `Prompt Editor` where you can also save prompts and the model's responses. At SAP, every employee can access the SAP AI Launchpad and query all of the available models.
+Generative AI Hub offers all major models on the market. You can easily switch between them, compare results, and select the model that works best for your use case.
+
+SAP maintains strict data privacy contracts with LLM providers to ensure that your data remains secure.
+
+You can access your deployed models using the Python SDK, the cap-llm-plugin, any programming language or API platform, or the user interface in SAP AI Launchpad. The SAP AI Launchpad offers a **Chat** interface and a **Prompt Editor**, where you can also save prompts and the model's responses.
 
 ## Use the Chat in Generative AI Hub
 
@@ -12,46 +16,50 @@ You can access your deployed models either using the Python SDK, the cap-llm-plu
 
 Under `Selected Model` you will find all the deployed models. If there is no deployment this will be empty and you will not be able to chat. If you have more than one large language model deployed you will be able to select which one you want to use here. 
 
-The parameter `Frequency Penalty` allows you to penalize words that appear too frequently in the text, leading to the model not sounding too robotic. 
+The `Frequency Penalty` parameter allows you to penalize words that appear too frequently in the text, helping the model sound less robotic.
 
-Similarly the higher the `Presence Penalty`, the more likely the model will talk about new topics, as you penalize words that have appeared in the text so far. 
+Similarly, the higher the `Presence Penalty`, the more likely the model is to introduce new topics, as it penalizes words that have already appeared in the text.
 
-With `Max Tokens` you can set the size of the input and output of the model. Where tokens are not words but rather 4-5 characters long. 
+The `Max Tokens` parameter allows you to set the size of the model's input and output. Tokens are not individual words but are typically 4-5 characters long.
 
-With the `Temperature` parameter you can set how creative the model should sound so flexible the model is allowed to be in selecting the next token in the sequence.
+The `Temperature` parameter allows you to control how creative the model should be, determining how flexible it is in selecting the next token in the sequence.
 
-👉 Increase `Max Tokens` to the maximum amount by pulling the slide bar all the way to the right.
+👉 Increase `Max Tokens` to the maximum amount by sliding the bar all the way to the right.
 
 ![Chat 1/2](images/chat.png)
 
-In the `Chat Context` tab right under `Context History` you can set the number of messages that should be send to the model. So how much of the chat history should be provided as context to the model for each new request. You can add a `System Message` to describe the role or give more information of what is expected from the model. You can also provide example inputs and outputs.
+In the `Chat Context` tab, right under `Context History`, you can set the number of messages to be sent to the model, determining how much of the chat history should be provided as context for each new request.
+
+You can also add a `System Message` to describe the role or give more information about what is expected from the model. Additionally, you can provide example inputs and outputs.
 
 ![Chat 2/2](images/chat_2.png)
 
 ## Prompt Engineering
 👉 Try out different prompt engineering techniques following these examples:
 
-1. Zero shot:
+1. **Zero shot**:
    ```
     The capital of the U.S. is:
     ``` 
-2. Few shot:
+2. **Few shot**:
     ```
     Germany - Berlin
-    France - Paris
-    U.S. - 
+    India - New Delhi
+    Poland - 
     ```
-3. Chain of thought:
+3. **Chain of thought**:
     ```
     1. What is the most important city of a country?
     2. In which country was the Internet originally developed?
     3. What is the >fill in the word from step 1< of the country >fill in the word from step 2<.
     ```
 
-👉 Try to add something funny to the `System Message` like "always respond like a pirate" and try the prompts again. You can also ask it to speak more technical like a developer or rather shiny like Marketing.
+👉 Try to add something funny to the `System Message` like "always respond like a pirate" and try the prompts again. You can also instruct it to speak more technically, like a developer, or more polished, like in marketing.
 
 ## Use the Prompt Editor in Generative AI Hub
-The `Prompt Editor` is useful if you want to store a prompt and the response to come back to it later or compare prompts. Often you can identify tasks that an LLM can help you with on a regular basis. In that case you cn also save different versions of the prompt that works well and you do not need to write the prompt again every time. The parameters you were able to set in the `Chat` you can also set here. You can also see the number of tokens your prompt used below the response.
+The `Prompt Editor` is useful if you want to save a prompt and its response to revisit later or compare prompts. Often, you can identify tasks that an LLM can help you with on a regular basis. In that case, you can also save different versions of the prompt that work well, saving you from having to write the prompt again each time. 
+
+The parameters you were able to set in the `Chat` can also be set here. Additionally, you can view the number of tokens your prompt used below the response.
 
 👉 Go over to `Prompt Editor`, select a model and set `Max Tokens` to the maximum again
 
@@ -64,13 +72,13 @@ The `Prompt Editor` is useful if you want to store a prompt and the response to 
 1. Chain of thought prompt - customer support:
     ```
     You are working at a big tech company and you are part of the support team.
-    You are tasked with sorting the incoming support requests into: German, English or Spanish.
-    
-    Read the incoming query
-    Then classify the language of the query into German, English or Spanish
+    You are tasked with sorting the incoming support requests into: German, English, Polish or Spanish.
+
+    Read the incoming query.
+    Then classify the language of the query into German, English, Polish or Spanish.
     Examples: 'bad usability. very confusing user interface.' - English
-    Then count how many German, English or Spanish queries there are
-    Then summarize in bullet points the most important pain points in the queries.
+    Then count how many German, English, Polish or Spanish queries there are
+    Then using English summarize in bullet points the most important pain points in the queries.
 
     Queries:
     - What are the shipping costs to Australia?
@@ -80,6 +88,7 @@ The `Prompt Editor` is useful if you want to store a prompt and the response to 
     - ¿Cómo puedo cancelar mi suscripción?
     - Wo kann ich den Status meiner Reparatur einsehen?
     - What payment methods do you accept?
+    - Czemu to tak długo ma iść do Wrocławia, gdy cena nie jest wcale niska?
     - ¿Cuál es el tiempo estimado de entrega para México?
     - Gibt es eine Garantie auf elektronische Geräte?
     - I’m having trouble logging into my account, what should I do?
@@ -91,7 +100,7 @@ The `Prompt Editor` is useful if you want to store a prompt and the response to 
 
 ## Summary
 
-At this point, you will know how to use the user interface of Generative AI Hub in SAP AI Launchpad to query LLMs and store important prompts. You also know how to tweak the output of a large language model by applying prompt engineering techniques.
+By this point, you will know how to use the Generative AI Hub user interface in SAP AI Launchpad to query LLMs and store important prompts. You will also understand how to refine the output of a large language model using prompt engineering techniques.
 
 ## Further reading
 
