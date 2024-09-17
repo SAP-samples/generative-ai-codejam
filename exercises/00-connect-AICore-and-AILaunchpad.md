@@ -4,10 +4,10 @@
 ## [1/4] Open SAP Business Technology Platform
 👉 Open your [BTP cockpit](https://emea.cockpit.btp.cloud.sap/cockpit).
 
-👉 Navigate to the subaccount: **generative AI CodeJam**
+👉 Navigate to the subaccount: `GenAI CodeJam`.
 
 ## [2/4] Open SAP AI Launchpad and connect to SAP AI Core
-👉 Go to `Instances and Subscriptions` and check whether you see an SAP AI Core instance and an SAP AI Launchpad subscription.
+👉 Go to **Instances and Subscriptions**. Check whether you see an **SAP AI Core** instance and an **SAP AI Launchpad** subscription.
 
 ![BTP Cockpit](images/btp.png)
 
@@ -15,10 +15,12 @@ With SAP AI Launchpad you can administer all your machine learning operations. �
 
 ![SAP AI Core service key](images/service-key.png)
 
-👉 Open `SAP AI Launchpad`, in this subaccount the connection is already established. Otherwise you would have to add a new runtime using the SAP AI Core service key information.
+☝️ In this subaccount the connection between the SAP AI Core service instance and the SAP AI Launchpad application is already established. Otherwise you would have to add a new runtime using the SAP AI Core service key information.
+
+👉 Open **SAP AI Launchpad**.
 
 ## [3/4] Create a new resource group for your team
-SAP AI Core tenants use resource groups to isolate AI resources and workloads. Scenarios (e.g. `foundation-models`)
+SAP AI Core tenants use [resource groups](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/resource-groups) to isolate AI resources and workloads. Scenarios (e.g. `foundation-models`)
 and executables (a template for training a model or creation of a deployment) are shared across all resource groups.
 
 > Make sure to create a **NEW** resource group for your team.</br> DO NOT USE THE DEFAULT RESOURCE GROUP!
@@ -29,7 +31,7 @@ and executables (a template for training a model or creation of a deployment) ar
 
 ![SAP AI Launchpad - Recourse Group 1/2](images/resource_group.png)
 
-👉 Go back to `Workspaces`.
+👉 Go back to **Workspaces**.
 
 👉 Select your connection and your resource group.
 
