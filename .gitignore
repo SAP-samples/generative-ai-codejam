@@ -1,4 +1,5 @@
 .aicore-config.json
+.user.ini
 
 # Environments
 .env
