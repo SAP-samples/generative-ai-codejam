@@ -17,7 +17,7 @@
 
 ![Create a Dev Space 1](images/bas.png)
 
-👉 Enter the name of the Dev space `GenAICodeJam` and select the `Basic` kind of application.
+👉 Enter the name of the Dev space `GenAICodeJam`, select the `Basic` kind of application and `Python Tools` from Additional SAP Extensions.
 
 👉 Click **Create Dev Space**.
 

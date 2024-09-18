@@ -16,7 +16,7 @@ To use one of the provided LLMs for a custom use case, you need to create a depl
 
 👉 **Copy** the name of the model for which you want to deploy the proxy.
 
-For this CodeJam you will use `gpt-35-turbo`.
+For this CodeJam you will use `gpt-4`.
 
 After that you will create a configuration.
 
@@ -28,16 +28,16 @@ After that you will create a configuration.
 
 ![Configurations](images/configurations.png)
 
-👉 Enter a configuration name **`conf-gpt35-turbo`**, select the `foundation-models` scenario, version and the executable `azure-openai`. 
+👉 Enter a configuration name **`conf-gpt4`**, select the `foundation-models` scenario, version and the executable `azure-openai`. 
 
 Click **Next**.
 
 ![Create configuration 1/4](images/configurations_2.png)
 
-👉 Paste the model name `gpt-35-turbo` into the `modelName` field and click **Next**.
+👉 Paste the model name `gpt-4` into the `modelName` field and click **Next**.
 
 ```
-gpt-35-turbo
+gpt-4
 ```
 
 ![Create configuration 2/4](images/configurations_3.png)
@@ -86,7 +86,7 @@ Using the `URL`, `client ID`, and `client secret` from the SAP AI Core service k
 
 To implement a retrieval augmented generation (RAG) use case, you also need to deploy an embedding model. The embeddings for your text chunks will then be stored in a vector database (e.g. [SAP HANA Cloud Vector Engine](https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-database-vector-engine-guide/sap-hana-cloud-sap-hana-database-vector-engine-guide)). 
 
-👉 To deploy the embedding model repeat the steps above using the model name `text-embedding-ada-002` instead of `gpt-35-turbo`: 
+👉 To deploy the embedding model repeat the steps above using the model name `text-embedding-ada-002` instead of `gpt-4`: 
 ```
 text-embedding-ada-002
 ```
