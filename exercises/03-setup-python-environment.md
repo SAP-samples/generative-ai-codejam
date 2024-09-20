@@ -146,7 +146,7 @@ pip install --require-virtualenv pypdf
 👉 And [LangChain Experimental](https://pypi.org/project/langchain-experimental/).
 
 ```bash
-pip install --require-virtualenv langchain-experimental
+pip install --require-virtualenv generative-ai-hub-sdk[all] langchain-experimental
 ```
 
 > From now on the exercises continue in BAS.
