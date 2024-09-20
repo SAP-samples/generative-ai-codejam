@@ -6,7 +6,7 @@
 -->
 
 ## Description
-This repository contains the material for the "Getting strted with the Generative AI Hub on SAP AI Core" CodeJam, brought to you by the Developer Advocates at SAP.
+This repository contains the material for the "Getting started with the Generative AI Hub on SAP AI Core" CodeJam, brought to you by the Developer Advocates at SAP.
 
 ## Overview
 In this CodeJam you will learn how to use Generative AI Hub on SAP AI Core to implement a retrieval augmented generation (RAG) use case to improve the responses of large language models (LLMs) and reduce hallucinations. You will learn how to deploy an LLM on SAP AI Core and query it via SAP AI Launchpad and the Python SDK. Furthermore, you will learn about the most important genAI concepts and create and use text chunks and embeddings to improve your RAG response.
