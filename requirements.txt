@@ -1,0 +1,14 @@
+# The Generative AI Hub Python SDK
+generative-ai-hub-sdk[all]
+
+# The HANA client for Python
+hdbcli
+
+# The SciPy package
+scipy
+
+# The pypdf package
+pypdf
+
+# The LangChain Experimental
+langchain-experimental

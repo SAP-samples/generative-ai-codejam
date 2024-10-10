@@ -120,6 +120,7 @@ source ~/projects/generative-ai-codejam/env/bin/activate
 ![venv](images/venv.png)
 
 👉 Install the Generative AI Hub [Python SDK](https://pypi.org/project/generative-ai-hub-sdk/) (and the other packages listed below) using the following `pip install` commands.
+(Or you can use `pip install -r requirements.txt` to install all required python packages.)
 
 ```bash
 pip install --require-virtualenv generative-ai-hub-sdk[all]
