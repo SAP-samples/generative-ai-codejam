@@ -63,14 +63,6 @@ You should see:
 
 ![Open a workspace](images/workspace.png)
 
-## Install the required extensions from the marketplace
-
-👉 Go to `Extensions` using the activity bar (the left-most bar in the IDE)
-
-👉 Install `Python` and `Jupyter` extensions.
-
-![Extensions to install](images/extensions.png)
-
 ## Configure the connection to Generative AI Hub
 
 👉 Go back to your [BTP cockpit](https://emea.cockpit.btp.cloud.sap/cockpit).
