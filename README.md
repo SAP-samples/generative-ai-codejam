@@ -29,8 +29,9 @@ The instructor will start you on the first exercise, and that's the only one you
 05. [Create embeddings for your document chunks](exercises/05-create-embeddings.ipynb)
 06. [Store embeddings](exercises/06-store-embeddings-hana.ipynb)
 07. [Implement the RAG use case](exercises/07-RAG.ipynb)
-08. [Semantic chunking](exercises/08-semantic-chunking.ipynb)
-09. [Multimodal models](exercises/09-use-multimodal-models.ipynb)
+08. [Multimodal models](exercises/08-use-multimodal-models.ipynb)
+09. [Orchestration service](exercises/09-orchestration-service.ipynb)
+10. [Semantic chunking](exercises/10-semantic-chunking.ipynb)
 
 ## Feedback
 
