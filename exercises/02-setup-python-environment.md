@@ -111,7 +111,7 @@ source ~/projects/generative-ai-codejam/env/bin/activate
 
 ![venv](images/venv.png)
 
-👉 Install the Generative AI Hub [Python SDK](https://pypi.org/project/generative-ai-hub-sdk/) (and the other packages listed below) using the following `pip install` commands.
+👉 Install the Generative AI Hub [Python SDK](https://pypi.org/project/generative-ai-hub-sdk/) (and the other packages listed below) using the following `pip install` commands OR you can have a look at the `requirements.txt` file and simply run `pip install -r requirements.txt`.
 
 ```bash
 pip install --require-virtualenv generative-ai-hub-sdk[all]
@@ -135,12 +135,13 @@ pip install --require-virtualenv scipy
 pip install --require-virtualenv pypdf
 ```
 
-👉 And [LangChain Experimental](https://pypi.org/project/langchain-experimental/).
+<!-- 👉 And [LangChain Experimental](https://pypi.org/project/langchain-experimental/).
 
 ```bash
 pip install --require-virtualenv generative-ai-hub-sdk[all] langchain-experimental
-```
+```-->
+
 
 > From now on the exercises continue in BAS.
 
-[Next exercise](04-prompt-llm.ipynb)
+[Next exercise](03-prompt-llm.ipynb)
