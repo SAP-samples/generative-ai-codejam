@@ -22,16 +22,16 @@ You can find all exercises in the exercises folder. We will work through the exe
 The instructor will start you on the first exercise, and that's the only one you should do. You should only proceed to the next exercise once the instructor tells you to.
 
 00. [Connect SAP AI Core and SAP AI Launchpad](exercises/00-connect-AICore-and-AILaunchpad.md)
-01. [Deploy a Large Language Model (LLM) on SAP AI Core](exercises/01-deploy-model.md)
-02. [Explore the Prompt Editor in SAP AI Launchpad](exercises/02-explore-genai-hub.md)
-03. [Setup your Python environment](exercises/03-setup-python-environment.md)
-04. [Prompt an LLM](exercises/04-prompt-llm.ipynb)
-05. [Create embeddings for your document chunks](exercises/05-create-embeddings.ipynb)
-06. [Store embeddings](exercises/06-store-embeddings-hana.ipynb)
-07. [Implement the RAG use case](exercises/07-RAG.ipynb)
-08. [Multimodal models](exercises/08-use-multimodal-models.ipynb)
+01. [Explore the Prompt Editor in SAP AI Launchpad](exercises/01-explore-genai-hub.md)
+02. [Setup your Python environment](exercises/02-setup-python-environment.md)
+03. [Prompt an LLM](exercises/03-prompt-llm.ipynb)
+04. [Create embeddings for your document chunks](exercises/04-create-embeddings.ipynb)
+05. [Store embeddings](exercises/05-store-embeddings-hana.ipynb)
+06. [Implement the RAG use case](exercises/06-RAG.ipynb)
+07. [Multimodal models](exercises/07-use-multimodal-models.ipynb)
+08. [Deploy an orchestration service](exercises/08-deploy-orchestration-service.md)
 09. [Orchestration service](exercises/09-orchestration-service.ipynb)
-10. [Semantic chunking](exercises/10-semantic-chunking.ipynb)
+10. [Chatbot with Memory](exercises/10-chatbot-with-memory.ipynb)
 
 ## Feedback
 
