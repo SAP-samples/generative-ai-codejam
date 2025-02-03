@@ -20,7 +20,7 @@ To use orchestration service, you need to create a deployment [configuration](ht
 
 👉 Click on `Create Deployment` to create a deployment for that configuration. 
 
-This will not actually deploy all the models, but it will deploy a proxy that returns a URL for you to use to query the models via the orchestration service.
+This will not actually deploy all the models, but it will deploy a proxy that returns a URL for you to use to query the models via the orchestration service. 
 
 ![Create deployment 1/5](images/deployment_o.png)
 
@@ -29,6 +29,8 @@ This will not actually deploy all the models, but it will deploy a proxy that re
 The deployment status is going to change from `UNKNOWN` to `PENDING` and then to `RUNNING`. 
 
 Once the deployment is running you will receive a URL to query the orchestration service. Wait a couple of minutes, then use the **refresh** icon on the page for the URL to appear. 
+
+☝️ You will need the deployment URL in the next exercise!
 
 ![Create deployment 4/5](images/deployments_4.png)
 
