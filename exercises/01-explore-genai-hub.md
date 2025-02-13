@@ -74,7 +74,7 @@ You can also add a `System Message` to describe the role or give more informatio
 
 👉 Have the model count letters in words. For example how often the letter **r** occurs in **strawberry**. Can you come up with a prompt that counts it correctly?
 
-👉 Before you move on to the next exercise, make sure to also deploy the `text-embedding-ada-002` model. You will need it later!
+👉 Before you move on to the next exercise, make sure to also deploy the `Text Embedding 3 Small` model. You will need it later! Clicking the deploy button once is enough, then you can see your deployments under `ML Operations>Deployments`.
 
 ## Use the Prompt Editor in Generative AI Hub
 The `Prompt Editor` is useful if you want to save a prompt and its response to revisit later or compare prompts. Often, you can identify tasks that an LLM can help you with on a regular basis. In that case, you can also save different versions of the prompt that work well, saving you from having to write the prompt again each time. 

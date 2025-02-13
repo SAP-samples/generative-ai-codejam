@@ -50,7 +50,7 @@ By this point, you will have learned which models are available through the Gene
 
 * [SAP AI Launchpad - Help Portal (Documentation)](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/what-is-sap-ai-launchpad)
 * [SAP AI Core Terminology](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/terminology)
-* [Available Models in the Generative AI Hub](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/models-and-scenarios-in-generative-ai-hub)
+* [Available Models in the Generative AI Hub](https://me.sap.com/notes/3437766)
 
 ---
 
