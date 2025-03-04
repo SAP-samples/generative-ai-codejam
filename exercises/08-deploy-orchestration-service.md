@@ -2,6 +2,8 @@
 
 To use orchestration service, you need to create a deployment [configuration](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/configurations). Using this configuration, you can deploy the orchestration service. After successful deployment, you will receive a deployment URL, which you can use to query the model of your choice via the orchestration service.
 
+☝️ Some of you already created an orchestration deployment in the beginning. Go to the SAP AI Launchpad and find your deployment URL under `Deployments`.
+
 ## Create a configuration to deploy the orchestration service on SAP AI Core
 
 👉 Open the `ML Operations` tab and click on `Configurations`.
