@@ -56,4 +56,4 @@ By this point, you will have learned which models are available through the Gene
 
 ---
 
-[Next exercise](09-orchestration-service.ipynb)
+[Next exercise](08-orchestration-service.ipynb)
