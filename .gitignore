@@ -1,5 +1,6 @@
 .aicore-config.json
 .user.ini
+variables.py
 
 # Environments
 .env
