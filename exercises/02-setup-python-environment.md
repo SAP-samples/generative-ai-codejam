@@ -67,9 +67,9 @@ You should see:
 
 👉 Go back to your [BTP cockpit](https://emea.cockpit.btp.cloud.sap/cockpit).
 
-👉 Navigate to `Instances and Subscriptions` and open the SAP AI Core instance's service key.
+👉 Navigate to `Instances and Subscriptions` and open the SAP AI Core instance's service binding.
 
-![Service Key in the BTP Cockpit](images/service_key.png)
+![Service Binding in the BTP Cockpit](images/service_binding.png)
 
 👉 Click **Copy JSON**.
 
@@ -79,19 +79,19 @@ You should see:
 
 ```json
 {
-    "serviceurls": {
-      "AI_API_URL": "https://api.ai.prod.us-east-1.aws.ml.hana.ondemand.com"
-    },
-    "appname": "e9ff8604-ba8e-4322-91e4-c5550722de44!b305299|aicore!b164",
-    "clientid": "sb-e9ff8604-ba8e-4322-91e4-c5550722de44!b305299|aicore!b164",
-    "clientsecret": "",
-    "identityzone": "cap-ai-codejam-op6zhda1",
-    "identityzoneid": "6088766d-dcc4-4e56-972f-652baad796be",
-    "url": "https://cap-ai-codejam-op6zhda1.authentication.us10.hana.ondemand.com"
-  }
+  "appname": "7ce41b4e-e483-4fc8-8de4-0eee29142e43!b505946|aicore!b540",
+  "clientid": "sb-7ce41b4e-e483-4fc8-8de4-0eee29142e43!b505946|aicore!b540",
+  "clientsecret": "...",
+  "identityzone": "genai-codejam-luyq1wkg",
+  "identityzoneid": "a5a420d8-58c6-4820-ab11-90c7145da589",
+  "serviceurls": {
+    "AI_API_URL": "https://api.ai.prod.eu-central-1.aws.ml.hana.ondemand.com"
+  },
+  "url": "https://genai-codejam-luyq1wkg.authentication.eu10.hana.ondemand.com"
+}
 ```
 
-## Create a virtual environment and install the Python SDK for Generative AI Hub
+## Create a Python virtual environment and install the SAP's [Python SDK for Generative AI Hub]((https://pypi.org/project/generative-ai-hub-sdk/))
 
 👉 Start a new Terminal.
 
