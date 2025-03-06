@@ -14,16 +14,20 @@ To start using one of the available models in Generative AI Hub, you need to fir
 
 👉 Open the `Generative AI Hub` tab and select `Model Library`. 
 
-👉 Click on any model that you would like to try out, but make sure it is a **Text Generation** model. I am using **GPT-4o Mini**.
+👉 Click on **GPT-4o Mini** which is a text generation model that can also process images.
 
 ![Model Library 2/3](images/model-library-2.png)
 
-👉 Click on `Deploy` to make the model endpoint available to you. It will take a minute to be deployed.
+👉 Click on `Deploy` **ONE TIME** to make the model endpoint available to you. ****It will TAKE A MINUTE to be deployed.**
 
 ![Model Library 3/3](images/model-library-3.png)
 
 👉 Click on `Use in Chat` to open the chat interface and start interacting with the model.
 
+> ☝️ If your model is not deployed yet, the Chat window will ask you to enable the orchestration service. You can do that and then you have all the models available to chat to. If you deploy the orchestration service now, you will not have to do it again in exercise [07-deploy-orchestration-service.md](07-deploy-orchestration-service.md)
+![Chat-orchestration](images/enable_orchestration.png)
+
+If your model is deployed, the chat will look like this:
 ![Chat](images/chat1.png)
 
 ## Use the Chat in Generative AI Hub
@@ -74,7 +78,7 @@ You can also add a `System Message` to describe the role or give more informatio
 
 👉 Have the model count letters in words. For example how often the letter **r** occurs in **strawberry**. Can you come up with a prompt that counts it correctly?
 
-👉 Before you move on to the next exercise, make sure to also deploy the `Text Embedding 3 Small` model. You will need it later! Clicking the deploy button once is enough, then you can see your deployments under `ML Operations>Deployments`.
+> 👉 Before you move on to the next exercise, make sure to also deploy the `Text Embedding 3 Small` model. You will need it later! Clicking the deploy button once is enough, then you can see your deployments under `ML Operations>Deployments`.
 
 ## Use the Prompt Editor in Generative AI Hub
 The `Prompt Editor` is useful if you want to save a prompt and its response to revisit later or compare prompts. Often, you can identify tasks that an LLM can help you with on a regular basis. In that case, you can also save different versions of the prompt that work well, saving you from having to write the prompt again each time. 
