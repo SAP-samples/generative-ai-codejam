@@ -18,7 +18,7 @@ To start using one of the available models in Generative AI Hub, you need to fir
 
 ![Model Library 2/3](images/model-library-2.png)
 
-👉 Click on `Deploy` **ONE TIME** to make the model endpoint available to you. ****It will TAKE A MINUTE to be deployed.**
+👉 Click on `Deploy` **ONE TIME** to make the model endpoint available to you. **It will TAKE A MINUTE to be deployed.**
 
 ![Model Library 3/3](images/model-library-3.png)
 
