@@ -122,8 +122,6 @@ The parameters you were able to set in the `Chat` can also be set here. Addition
 
 👉 If you still have time. Ask the LLM to come up with different support queries to have more data.
 
-👉 Or in case you are already bored, you could help me come up with a cool scavenger hunt for my sons birthday in a couple of weeks. He likes pirates and dinosaurs. Maybe you and the model of your choice can help me come up with clues and small tasks a bunch of five year olds can do?
-
 ## Summary
 
 By this point, you will know how to use the Generative AI Hub user interface in SAP AI Launchpad to query LLMs and store important prompts. You will also understand how to refine the output of a large language model using prompt engineering techniques.
