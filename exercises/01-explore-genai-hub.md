@@ -20,6 +20,8 @@ To start using one of the available models in Generative AI Hub, you need to fir
 
 👉 Click on `Deploy` **ONE TIME** to make the model endpoint available to you. **It will TAKE A MINUTE to be deployed.**
 
+👉 You can check the deployment status of the models by clicking on `ML Operations>Deployments`.
+
 ![Model Library 3/3](images/model-library-3.png)
 
 👉 Click on `Use in Chat` to open the chat interface and start interacting with the model.
