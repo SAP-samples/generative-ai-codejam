@@ -67,7 +67,7 @@ You can also add a `System Message` to describe the role or give more informatio
     India - New Delhi
     France - 
     ```
-3. **Chain of thought**:
+3. **Chain of thought** (Copy the WHOLE BLOCK into the chat window):
     ```
     1. What is the most important city of a country?
     2. In which country was the hot air balloon originally developed?
@@ -93,7 +93,7 @@ The parameters you were able to set in the `Chat` can also be set here. Addition
 
 👉 If you now head over to `Prompt Management` you will find your previously saved prompt there. To run the prompt again click `Open in Prompt Editor`. You can also select other saved prompts by clicking on **Select**.
 
-1. Chain of thought prompt - customer support:
+1. Chain of thought prompt - customer support (Copy the WHOLE BLOCK into the prompt editor):
     ```
     You are working at a big tech company and you are part of the support team.
     You are tasked with sorting the incoming support requests into: German, English, Polish or French.
