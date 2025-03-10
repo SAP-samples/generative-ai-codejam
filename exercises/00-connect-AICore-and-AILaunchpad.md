@@ -39,6 +39,8 @@ and executables (a template for training a model or creation of a deployment) ar
 
 ☝️ You will need the name of your resource group in [Exercise 04-create-embeddings](04-create-embeddings.ipynb).
 
+> If your resource group does not show up, use the browser refresh button to refresh the page.
+
 ![SAP AI Launchpad - Recourse Group 2/2](images/resource_group_2.png)
 
 [Next Exercise](01-explore-genai-hub.md)
