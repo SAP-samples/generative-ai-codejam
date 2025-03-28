@@ -1,5 +1,5 @@
 # Setup SAP Business Application Studio and a dev space
-> [SAP Business Application Studio](https://help.sap.com/docs/bas/sap-business-application-studio/what-is-sap-business-application-studio) is based on Code-OSS, an open source project used for building Visual Studio Code. Available as a cloud service, SAP Business Application Studio provides a desktop-like experience similar to leading IDEs, with command line and optimized editors.
+> [SAP Business Application Studio](https://help.sap.com/docs/bas/sap-business-application-studio/what-is-sap-business-application-studio) is based on Code-OSS, an open-source project used for building Visual Studio Code. Available as a cloud service, SAP Business Application Studio provides a desktop-like experience similar to leading IDEs, with command line and optimized editors.
 
 > At the heart of SAP Business Application Studio are the dev spaces. The dev spaces are comparable to isolated virtual machines in the cloud containing tailored tools and preinstalled runtimes per business scenario, such as SAP Fiori, SAP S/4HANA extensions, Workflow, Mobile and more. This simplifies and speeds up the setup of your development environment, enabling you to efficiently develop, test, build, and run your solutions locally or in the cloud.
 
@@ -114,13 +114,13 @@ source ~/projects/generative-ai-codejam/env/bin/activate
 👉 Install the Generative AI Hub [Python SDK](https://pypi.org/project/generative-ai-hub-sdk/) (and the other packages listed below) using the following `pip install` commands.
 
 ```bash
-pip install --require-virtualenv generative-ai-hub-sdk[all]
+pip install --require-virtualenv -U generative-ai-hub-sdk[all]
 ```
 
 👉 We will also need the [HANA client for Python](https://pypi.org/project/hdbcli/).
 
 ```bash
-pip install --require-virtualenv hdbcli
+pip install --require-virtualenv -U hdbcli
 ```
 
 👉 We will also need the [SciPy package](https://pypi.org/project/scipy/).
@@ -129,10 +129,10 @@ pip install --require-virtualenv hdbcli
 pip install --require-virtualenv scipy
 ```
 
-👉 We will also need the [pydf package](https://pypi.org/project/pypdf/).
+👉 We will also need the [pydf package](https://pypi.org/project/pypdf/) and [wikipedia](https://pypi.org/project/wikipedia/).
 
 ```bash
-pip install --require-virtualenv pypdf
+pip install --require-virtualenv pypdf wikipedia
 ```
 
 <!-- 👉 And [LangChain Experimental](https://pypi.org/project/langchain-experimental/).
