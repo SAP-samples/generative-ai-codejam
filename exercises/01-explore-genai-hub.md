@@ -8,7 +8,7 @@ SAP maintains strict data privacy contracts with LLM providers to ensure that yo
 
 To start using one of the available models in Generative AI Hub, you need to first deploy it. You can either deploy an orchestration service and then have all available models accessible through that. Or you can deploy a single model directly via the **Model Library**. You can access your deployed models using the Python SDK, the SAP Cloud SDK for AI (JavaScript SDK), any programming language or API platform, or the user interface in SAP AI Launchpad. The SAP AI Launchpad offers a **Model Library**, a **Chat** interface and a **Prompt Editor**, where you can also save prompts and the model's responses.
 
-## Deploy a proxy via the Model Library
+## Deploy a proxy of the multi-modal LLM via the Model Library
 
 ![Model Library 1/3](images/model-library.png)
 
@@ -18,7 +18,7 @@ To start using one of the available models in Generative AI Hub, you need to fir
 
 ![Model Library 2/3](images/model-library-2.png)
 
-👉 Click on `Deploy` **ONE TIME** to make the model endpoint available to you. **It will TAKE A MINUTE to be deployed.**
+👉 Click on `Deploy` **ONLY ONCE** to make the model endpoint available to you. **It will TAKE A MINUTE or so to be deployed.**
 
 👉 You can check the deployment status of the models by clicking on `ML Operations>Deployments`.
 
@@ -26,10 +26,11 @@ To start using one of the available models in Generative AI Hub, you need to fir
 
 👉 Click on `Use in Chat` to open the chat interface and start interacting with the model.
 
-> ☝️ If your model is not deployed yet, the Chat window will ask you to enable the orchestration service. You can do that and then you have all the models available to chat to. If you deploy the orchestration service now, you will not have to do it again in exercise [07-deploy-orchestration-service.md](07-deploy-orchestration-service.md)
+> ☝️ The Chat window will ask you to enable the orchestration service. You can do that and then you have all the models available to chat with. Deploy the orchestration service now, so you will not have to do it again in exercise [07-deploy-orchestration-service.md](07-deploy-orchestration-service.md)
+
 ![Chat-orchestration](images/enable_orchestration.png)
 
-If your model is deployed, the chat will look like this:
+Once your model(s) is deployed, the Chat will look like this:
 ![Chat](images/chat1.png)
 
 ## Use the Chat in Generative AI Hub
@@ -80,9 +81,12 @@ You can also add a `System Message` to describe the role or give more informatio
 
 👉 Have the model count letters in words. For example how often the letter **r** occurs in **strawberry**. Can you come up with a prompt that counts it correctly?
 
-> 👉 Before you move on to the next exercise, make sure to also deploy the `Text Embedding 3 Small` model. You will need it later! Clicking the deploy button once is enough, then you can see your deployments under `ML Operations>Deployments`.
+## Deploy a proxy of the text-embedding model via the Model Library
+
+👉 Before you move on to the next exercise, make sure to also deploy the `Text Embedding 3 Small` model. You will need it later! Clicking the deploy button once is enough, then you can see your deployments under `ML Operations>Deployments`.
 
 ## Use the Prompt Editor in Generative AI Hub
+
 The `Prompt Editor` is useful if you want to save a prompt and its response to revisit later or compare prompts. Often, you can identify tasks that an LLM can help you with on a regular basis. In that case, you can also save different versions of the prompt that work well, saving you from having to write the prompt again each time. 
 
 The parameters you were able to set in the `Chat` can also be set here. Additionally, you can view the number of tokens your prompt used below the response.
@@ -131,8 +135,8 @@ By this point, you will know how to use the Generative AI Hub user interface in 
 ## Further reading
 
 * [Generative AI Hub on SAP AI Core - Help Portal (Documentation)](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/generative-ai-hub-in-sap-ai-core-7db524ee75e74bf8b50c167951fe34a5)
-* [This](https://www.promptingguide.ai/) is a good resource if you want to know more about prompt engineering.
-* [This](https://developers.sap.com/tutorials/ai-core-generative-ai.html) is a good tutorial on how to prompt LLMs with Generative AI Hub.
+* [Prompt Engineering Guide](https://www.promptingguide.ai/) is a good resource if you want to know more about prompt engineering in general.
+* [Prompt LLMs in the generative AI hub in SAP AI Core & Launchpad](https://developers.sap.com/tutorials/ai-core-generative-ai.html) is a good tutorial on how to prompt LLMs with Generative AI Hub.
 
 ---
 
