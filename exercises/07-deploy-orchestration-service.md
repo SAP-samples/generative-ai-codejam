@@ -40,7 +40,7 @@ Under `Deployments` you can see all the deployed models and their status.
 
 ![Create deployment 2/5](images/deployment_o2.png)
 
-Using the `URL`, `client ID`, and `client secret` from the SAP AI Core service key, you can now query the model using any programming language or API platform.
+Using the `URL`, `client ID`, and `client secret` from the SAP AI Core service key, you can now query the model using any programming language or REST client.
 
 ![Create deployment 5/5](images/deployments_5.png)
 
@@ -52,7 +52,7 @@ By this point, you will have learned which models are available through the Gene
 
 * [SAP AI Launchpad - Help Portal (Documentation)](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/what-is-sap-ai-launchpad)
 * [SAP AI Core Terminology](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/terminology)
-* [Available Models in the Generative AI Hub](https://me.sap.com/notes/3437766)
+* [SAP Note 3437766 - Availability of Generative AI Models](https://me.sap.com/notes/3437766)
 
 ---
 
