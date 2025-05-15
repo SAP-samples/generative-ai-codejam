@@ -17,7 +17,7 @@
 
 ![Create a Dev Space 1](images/bas.png)
 
-👉 Enter the name of the Dev space `GenAICodeJam`, select the `Basic` kind of application and `Python Tools` from Additional SAP Extensions.
+👉 Enter the name of the dev space `GenAICodeJam`, select the `Basic` kind of application and `Python Tools` from Additional SAP Extensions.
 
 👉 Click **Create Dev Space**.
 
@@ -91,7 +91,7 @@ You should see:
 }
 ```
 
-## Create a Python virtual environment and install the SAP's [Python SDK for Generative AI Hub]((https://pypi.org/project/generative-ai-hub-sdk/))
+## Create a Python virtual environment and install the SAP's [Python SDK for Generative AI Hub](https://pypi.org/project/generative-ai-hub-sdk/)
 
 👉 Start a new Terminal.
 
