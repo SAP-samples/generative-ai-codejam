@@ -8,4 +8,4 @@ AICORE_ORCHESTRATION_DEPLOYMENT_URL = "https://api.ai.prod.eu-central-1.aws.ml.h
 
 # HANA table name to store your embeddings
 # TODO Change the name to your team name
-EMBEDDING_TABLE = "EMBEDDINGS_CODEJAM_"+"ADD_YOUR_NAME_HERE"
+EMBEDDING_TABLE = "EMBEDDINGS_CODEJAM_"+"->ADD_YOUR_NAME_HERE<-"
