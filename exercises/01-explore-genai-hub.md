@@ -62,20 +62,21 @@ You can also add a `System Message` to describe the role or give more informatio
 
 1. **Zero shot**:
    ```
-    The capital of the U.S. is:
-    ``` 
-2. **Few shot**:
-    ```
-    Germany - Berlin
-    India - New Delhi
-    France - 
-    ```
+   The capital of the U.S. is:
+   ```
+2. **Few shots**:
+   ```
+   Germany - Berlin
+   Canada - Ottawa
+   Ukraine - Kyiv
+   Georgia - 
+   ```
 3. **Chain of thought** (Copy the WHOLE BLOCK into the chat window):
-    ```
-    1. What is the most important city of a country?
-    2. In which country was the hot air balloon originally developed?
-    3. What is the >fill in the word from step 1< of the country >fill in the word from step 2<.
-    ```
+   ```
+   1. What is the most important city of a country?
+   2. In which country was the hot air balloon originally developed?
+   3. What is the >fill in the word from step 1< of the country >fill in the word from step 2<.
+   ```
 
 👉 Try to add something funny to the `System Message` like "always respond like a pirate" and try the prompts again. You can also instruct it to speak more technically, like a developer, or more polished, like in marketing.
 
@@ -127,6 +128,12 @@ The parameters you were able to set in the `Chat` can also be set here. Addition
 ![Prompt Editor](images/prompt_editor.png)
 
 👉 If you still have time. Ask the LLM to come up with different support queries to have more data.
+
+## Usability Survey
+
+Now that you have experienced the AI Launchpad, if you see the **Feedback** icon in the upper right corner, please click it to complete a survey. It should take no more than 3 minutes of your time, but this feedback is extremely important for us.
+
+![Feedback](images/AIL_survey.png)
 
 ## Summary
 
