@@ -23,16 +23,10 @@ To connect SAP AI Core to SAP AI Launchpad, you need the credentials from the SA
 
 👉 Open **SAP AI Launchpad**.
 
-## [3/4] Create a new resource group for your team
+## [3/4] Select the resource group that was assigned to you/your team
 SAP AI Core tenants use [resource groups](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/resource-groups) to isolate AI resources and workloads. Scenarios (e.g. `foundation-models`) and executables (a template for training a model or creation of a deployment) are shared across all resource groups.
 
-> Make sure to create a **NEW** resource group for your team.</br>DO NOT USE THE DEFAULT `default` RESOURCE GROUP!
-
-👉 Open the **SAP AI Core Administration** tab and select **Resource Groups**. 
-
-👉 **Create** a new resource group with your team's name.
-
-![SAP AI Launchpad - Recourse Group 1/2](images/resource_group.png)
+>DO NOT USE THE DEFAULT `default` RESOURCE GROUP!
 
 👉 Go back to **Workspaces**.
 
@@ -42,7 +36,6 @@ SAP AI Core tenants use [resource groups](https://help.sap.com/docs/sap-ai-core/
 
 ☝️ You will need the name of your resource group in [Exercise 04-create-embeddings](04-create-embeddings.ipynb).
 
-> If your resource group does not show up, use the **browser(!)** refresh button to refresh the page.
 
 ![SAP AI Launchpad - Recourse Group 2/2](images/resource_group_2.png)
 

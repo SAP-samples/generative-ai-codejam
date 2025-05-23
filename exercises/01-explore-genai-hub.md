@@ -6,31 +6,17 @@ Generative AI Hub offers all major models on the market. There are open-source m
 
 SAP maintains strict data privacy contracts with LLM providers to ensure that your data remains secure.
 
-To start using one of the available models in Generative AI Hub, you need to first deploy it. You can either deploy an orchestration service and then have all available models accessible through that. Or you can deploy a single model directly via the **Model Library**. You can access your deployed models using the Python SDK, the SAP Cloud SDK for AI (JavaScript SDK), any programming language or API platform, or the user interface in SAP AI Launchpad. The SAP AI Launchpad offers a **Model Library**, a **Chat** interface and a **Prompt Editor**, where you can also save prompts and the model's responses.
+To start using one of the available models in Generative AI Hub, you need to first deploy it. You need to deploy an orchestration service to access all available models. You can also deploy a single model directly via the **Model Library**. You can access your deployed models using the Python SDK, the SAP Cloud SDK for AI (JavaScript SDK), any programming language or API platform, or the user interface in SAP AI Launchpad.
 
-## Deploy a proxy of the multi-modal LLM via the Model Library
+## Deploy an Orchestration Service
+👉 Navigate to the `Generative AI Hub > Chat` tab.
 
-![Model Library 1/3](images/model-library.png)
+👉 Click **Enable Orchestration** to deploy an orchestration service.
 
-👉 Open the `Generative AI Hub` tab and select `Model Library`. 
-
-👉 Click on **GPT-4o Mini** which is a text generation model that can also process images.
-
-![Model Library 2/3](images/model-library-2.png)
-
-👉 Click on `Deploy` **ONLY ONCE** to make the model endpoint available to you. **It will TAKE A MINUTE or so to be deployed.**
-
-👉 You can check the deployment status of the models by clicking on `ML Operations>Deployments`.
-
-![Model Library 3/3](images/model-library-3.png)
-
-👉 Click on `Use in Chat` to open the chat interface and start interacting with the model.
-
-> ☝️ The Chat window will ask you to enable the orchestration service. You can do that and then you have all the models available to chat with. Deploy the orchestration service now, so you will not have to do it again in exercise [07-deploy-orchestration-service.md](07-deploy-orchestration-service.md)
-
-![Chat-orchestration](images/enable_orchestration.png)
+![Orchestration Deployment](images/deployment_orchestration_service.png)
 
 Once your model(s) is deployed, the Chat will look like this:
+
 ![Chat](images/chat1.png)
 
 ## Use the Chat in Generative AI Hub
@@ -128,6 +114,23 @@ The parameters you were able to set in the `Chat` can also be set here. Addition
 ![Prompt Editor](images/prompt_editor.png)
 
 👉 If you still have time. Ask the LLM to come up with different support queries to have more data.
+
+## Deploy a proxy of the multi-modal LLM via the Model Library
+
+In exercise [03-prompt-llm](exercises/03-prompt-llm.ipynb) you will also need a deployment of the **GPT-4o Mini** model, because we will use openAI's API directly and also use that model for a Retrieval Augmented Generation (RAG) workflow later.
+
+![Model Library 1/3](images/model-library.png)
+
+👉 Open the `Generative AI Hub` tab and select `Model Library`. 
+
+👉 Click on **GPT-4o Mini** which is a text generation model that can also process images.
+
+![Model Library 2/3](images/model-library-2.png)
+
+👉 Click on `Deploy` **ONLY ONCE** to make the model endpoint available to you. **It will TAKE A MINUTE or so to be deployed.**
+
+👉 You can check the deployment status of the models by clicking on `ML Operations > Deployments`.
+
 
 ## Usability Survey
 
