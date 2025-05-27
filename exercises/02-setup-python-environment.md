@@ -1,14 +1,14 @@
 # Setup SAP Business Application Studio and a dev space
 > [SAP Business Application Studio](https://help.sap.com/docs/bas/sap-business-application-studio/what-is-sap-business-application-studio) is based on Code-OSS, an open-source project used for building Visual Studio Code. Available as a cloud service, SAP Business Application Studio provides a desktop-like experience similar to leading IDEs, with command line and optimized editors.
 
-> At the heart of SAP Business Application Studio are the dev spaces. The dev spaces are comparable to isolated virtual machines in the cloud containing tailored tools and preinstalled runtimes per business scenario, such as SAP Fiori, SAP S/4HANA extensions, Workflow, Mobile and more. This simplifies and speeds up the setup of your development environment, enabling you to efficiently develop, test, build, and run your solutions locally or in the cloud.
+> At the heart of SAP Business Application Studio are the dev spaces. The dev spaces are comparable to isolated virtual machines in the cloud containing tailored tools and preinstalled runtimes per business scenario, such as SAP Fiori, SAP S/4HANA extensions, Workflow, HANA native development and more. This simplifies and speeds up the setup of your development environment, enabling you to efficiently develop, test, build, and run your solutions locally or in the cloud.
 
 ## Open SAP Business Application Studio
-👉 Go back to your [BTP cockpit](https://emea.cockpit.btp.cloud.sap/cockpit).
+👉 Go back to the [BTP cockpit](https://emea.cockpit.btp.cloud.sap/cockpit#/globalaccount/275320f9-4c26-4622-8728-b6f5196075f5/subaccount/a5a420d8-58c6-4820-ab11-90c7145da589/subaccountoverview).
 
 👉 Navigate to `Instances and Subscriptions` and open `SAP Business Application Studio`.
 
-![Clone the repo](images/BTP_cockpit_BAS.png)
+![Open BAS](images/BTP_cockpit_BAS.png)
 
 
 ## Create a new Dev Space for CodeJam exercises
@@ -63,9 +63,9 @@ You should see:
 
 ![Open a workspace](images/workspace.png)
 
-## Configure the connection to Generative AI Hub
+## Configure the connection details to Generative AI Hub
 
-👉 Go back to your [BTP cockpit](https://emea.cockpit.btp.cloud.sap/cockpit).
+👉 Go back to the Subaccount in the [BTP cockpit](https://emea.cockpit.btp.cloud.sap/cockpit#/globalaccount/275320f9-4c26-4622-8728-b6f5196075f5/subaccount/a5a420d8-58c6-4820-ab11-90c7145da589/subaccountoverview).
 
 👉 Navigate to `Instances and Subscriptions` and open the SAP AI Core instance's service binding.
 
@@ -95,7 +95,7 @@ You should see:
 
 👉 Start a new Terminal.
 
-![Extensions to install](images/start_terminal.png)
+![Start terminal](images/start_terminal.png)
 
 👉 Create a virtual environment using the following command:
 
