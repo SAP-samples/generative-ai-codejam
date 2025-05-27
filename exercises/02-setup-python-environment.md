@@ -57,7 +57,7 @@ The cloned repository contains a file `codejam.code-workspace` and therefore you
 
 You should see:
 * `CODEJAM` as the workspace at the root of the hierarchy of the project, and
-* `generative-ai-codejam` as the name of the top level folder.
+* `generative-ai-codejam` as the name of the top level folder, **not** `generative-ai-codejam-1` or any other names ending with a number.
 
 👉 You can close the **Get Started** tab.
 
@@ -142,6 +142,8 @@ pip install --require-virtualenv generative-ai-hub-sdk[all] langchain-experiment
 ```-->
 
 
-> From now on the exercises continue in BAS.
+## From now on, continue the exercises in BAS
 
 [Next exercise](03-prompt-llm.ipynb)
+
+![BAS exercise 3](images/bas_exercises.png)
