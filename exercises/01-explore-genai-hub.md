@@ -48,11 +48,11 @@ You can also add a `System Message` to describe the role or give more informatio
 
 1. **Zero shot**:
    ```
-   The capital of the U.S. is:
+   The capital of Germany is:
    ```
 2. **Few shots**:
    ```
-   Germany - Berlin
+   France - Paris
    Canada - Ottawa
    Ukraine - Kyiv
    Georgia - 
@@ -67,10 +67,6 @@ You can also add a `System Message` to describe the role or give more informatio
 👉 Try to add something funny to the `System Message` like "always respond like a pirate" and try the prompts again. You can also instruct it to speak more technically, like a developer, or more polished, like in marketing.
 
 👉 Have the model count letters in words. For example how often the letter **r** occurs in **strawberry**. Can you come up with a prompt that counts it correctly?
-
-## Deploy a proxy of the text-embedding model via the Model Library
-
-👉 Before you move on to the next exercise, make sure to also deploy the `Text Embedding 3 Small` model. You will need it later! Clicking the deploy button once is enough, then you can see your deployments under `ML Operations>Deployments`.
 
 ## Use the Prompt Editor in Generative AI Hub
 
@@ -131,6 +127,9 @@ In exercise [03-prompt-llm](exercises/03-prompt-llm.ipynb) you will also need a 
 
 👉 You can check the deployment status of the models by clicking on `ML Operations > Deployments`.
 
+## Deploy a proxy of the text-embedding model via the Model Library
+
+👉 Before you move on to the next exercise, make sure to also deploy the `Text Embedding 3 Small` model. You will need it later! Clicking the deploy button once is enough, then you can see your deployments under `ML Operations>Deployments`.
 
 ## Usability Survey
 
