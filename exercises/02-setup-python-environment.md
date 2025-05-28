@@ -111,25 +111,19 @@ source ~/projects/generative-ai-codejam/env/bin/activate
 
 ![venv](images/venv.png)
 
-👉 Install the Generative AI Hub [Python SDK](https://pypi.org/project/generative-ai-hub-sdk/) (and the other packages listed below) using the following `pip install` commands.
+👉 Install the Generative AI Hub [Python SDK](https://pypi.org/project/generative-ai-hub-sdk/) and [LangChain integration for SAP HANA Cloud](https://pypi.org/project/langchain-hana) plus all the other packages listed below using the following `pip install` commands.
 
 ```bash
-pip install --require-virtualenv -U generative-ai-hub-sdk[all]
+pip install --require-virtualenv -U generative-ai-hub-sdk[all] 'langchain-hana==0.2.1'
 ```
 
-👉 We will also need the [HANA client for Python](https://pypi.org/project/hdbcli/).
-
-```bash
-pip install --require-virtualenv -U hdbcli
-```
-
-👉 We will also need the [SciPy package](https://pypi.org/project/scipy/).
+👉 You will also need the [SciPy package](https://pypi.org/project/scipy/).
 
 ```bash
 pip install --require-virtualenv scipy
 ```
 
-👉 We will also need the [pydf package](https://pypi.org/project/pypdf/) and [wikipedia](https://pypi.org/project/wikipedia/).
+👉 You will also need the [pydf package](https://pypi.org/project/pypdf/) and [wikipedia](https://pypi.org/project/wikipedia/).
 
 ```bash
 pip install --require-virtualenv pypdf wikipedia
