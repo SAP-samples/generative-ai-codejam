@@ -25,7 +25,9 @@ Once your model(s) is deployed, the Chat will look like this:
 
 👉 Click `Configure` and have a look at the available fields. 
 
-Under `Selected Model` you will find all the deployed models. If there is no deployment this will be empty and you will not be able to chat. If you have more than one large language model deployed you will be able to select which one you want to use here. 
+Under `Selected Model` you will find all the deployed models. If there is no deployment this will be empty and you will not be able to chat. As the orchestration service is enabled, you will see all available models here.
+
+👉 Pick whatever model you would like to try! 
 
 The `Frequency Penalty` parameter allows you to penalize words that appear too frequently in the text, helping the model sound less robotic.
 
