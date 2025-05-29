@@ -27,7 +27,7 @@ Once your model(s) is deployed, the Chat will look like this:
 
 Under `Selected Model` you will find all the deployed models. If there is no deployment this will be empty and you will not be able to chat. As the orchestration service is enabled, you will see all available models here.
 
-👉 Pick whatever model you would like to try! 
+👉 Pick whatever model you would like to try! You can head over to the `Model Library` and compare models using the **Leaderboard** or **Chart**. Check for example for the cheapest model with the highest **Helm** score.
 
 The `Frequency Penalty` parameter allows you to penalize words that appear too frequently in the text, helping the model sound less robotic.
 
@@ -68,7 +68,7 @@ You can also add a `System Message` to describe the role or give more informatio
 
 👉 Try to add something funny to the `System Message` like "always respond like a pirate" and try the prompts again. You can also instruct it to speak more technically, like a developer, or more polished, like in marketing.
 
-👉 Have the model count letters in words. For example how often the letter **r** occurs in **strawberry**. Can you come up with a prompt that counts it correctly?
+👉 Have the model count letters in words. For example how often the letter **r** occurs in **strawberry**. Can you come up with a prompt that counts it correctly? If your model did it correctly try if an older version like GPT-3.5 still does it wrong.
 
 ## Use the Prompt Editor in Generative AI Hub
 
