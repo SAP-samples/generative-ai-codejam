@@ -2,9 +2,9 @@
 
 To leverage large language models (LLMs) or foundation models in your applications, you can use the Generative AI Hub on SAP AI Core. Like most other LLM applications, Generative AI Hub operates on a pay-per-use basis.
 
-Generative AI Hub offers all major models on the market. There are open-source models that SAP has deployed such as the Falcon model. And there are models that SAP is a proxy for, such as the GPT models, Google models, models provided by Amazon Bedrock and more. You can easily switch between them, compare results, and select the model that works best for your use case.
+Generative AI Hub offers all major models on the market. There are open-source models that SAP has deployed such as models from Mistral AI. And there are models that SAP is a proxy for, such as the GPT models, Google models, models provided by Amazon Bedrock and more. You can easily switch between them, compare results, and select the model that works best for your use case.
 
-SAP maintains strict data privacy contracts with LLM providers to ensure that your data remains secure.
+SAP maintains strict data privacy contracts with LLM providers to ensure that your data remains secure and your prompts remain private.
 
 To start using one of the available models in Generative AI Hub, you need to first deploy it. You need to deploy an orchestration service to access all available models. You can also deploy a single model directly via the **Model Library**. You can access your deployed models using the Python SDK, the SAP Cloud SDK for AI (JavaScript SDK), any programming language or API platform, or the user interface in SAP AI Launchpad.
 

@@ -34,7 +34,7 @@ SAP AI Core tenants use [resource groups](https://help.sap.com/docs/sap-ai-core/
 
 👉 Go back to **Workspaces**.
 
-👉 Select your workspace (like `codajam*`) and your resource group.
+👉 Select your workspace (like `codajam-YYY`) and your resource group.
 
 👉 Make sure it is set as a context. The proper name of the context, like `codejam-YYY (team-XX)` should show up at the top next to SAP AI Launchpad.
 
