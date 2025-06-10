@@ -66,7 +66,7 @@ The exercises related to the prerequisites and setting up BAS were copied and ad
 
 
 ## How to obtain support
-[Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.
+[Create an issue](https://github.com/SAP-samples/generative-ai-codejam/issues) in this repository if you find a bug or have questions about the content.
  
 For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
 
