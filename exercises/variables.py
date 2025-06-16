@@ -1,7 +1,7 @@
 # TODO Change the resource group, embedding model ID and LLM/Chat model ID to your own
-RESOURCE_GROUP = "default" # your resource group e.g. team-01
-EMBEDDING_DEPLOYMENT_ID = "d3b01c05c8c7aa9f" # e.g. d6b74feab22bc49a
-LLM_DEPLOYMENT_ID = "da595253b79adbd3"
+RESOURCE_GROUP = "" # your resource group e.g. team-01
+EMBEDDING_DEPLOYMENT_ID = "" # e.g. d6b74feab22bc49a
+LLM_DEPLOYMENT_ID = ""
 
 # TODO Change the URL to your own orchestration deployment ID
 AICORE_ORCHESTRATION_DEPLOYMENT_URL = "https://api.ai.prod.eu-central-1.aws.ml.hana.ondemand.com/v2/inference/deployments/xxx"
