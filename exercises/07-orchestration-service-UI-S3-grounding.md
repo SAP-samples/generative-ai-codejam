@@ -67,5 +67,6 @@ This YouTube video ([AI Foundation: Orchestration workflow with grounding using 
 
 ![orchestration 6](images/orchestration-6.png)
 
+👉 For the next exercises go to **Workspaces** and select your own resource groups again!
 
 [Next Exercise](08-orchestration-service.ipynb)
