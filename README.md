@@ -28,6 +28,7 @@ The instructor will start you on the first exercise, and that's the only one you
 04. [Create embeddings for your document chunks](exercises/04-create-embeddings.ipynb)
 05. [Store embeddings](exercises/05-store-embeddings-hana.ipynb)
 06. [Implement the RAG use case](exercises/06-RAG.ipynb)
+07. [Orchestration service S3 grounding (UI)](exercises/07-orchestration-service-UI-S3-grounding.md)
 08. [Orchestration service](exercises/08-orchestration-service.ipynb)
 09. [Orchestration service - grounding](exercises/09-orchestration-service-grounding.ipynb)
 10. [Chatbot with Memory](exercises/10-chatbot-with-memory.ipynb)
