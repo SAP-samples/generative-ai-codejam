@@ -121,7 +121,7 @@ In exercise [03-prompt-llm](exercises/03-prompt-llm.ipynb) you will also need a 
 
 👉 Open the `Generative AI Hub` tab and select `Model Library`. 
 
-👉 Click on **GPT-4o Mini** which is a text generation model that can also process images.
+👉 Click on **GPT-4.1 mini** which is a text generation model that can also process images.
 
 ![Model Library 2/3](images/model-library-2.png)
 
