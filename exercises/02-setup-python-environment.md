@@ -10,6 +10,10 @@
 
 ![Open BAS](images/BTP_cockpit_BAS.png)
 
+👉 Choose `Default Identity Provider`, if asked.
+
+![Open BAS](./images/BAS_IdP_select.png)
+
 
 ## Create a new Dev Space for CodeJam exercises
 
@@ -67,7 +71,7 @@ You should see:
 
 👉 Go back to the Subaccount in the [BTP cockpit](https://emea.cockpit.btp.cloud.sap/cockpit#/globalaccount/275320f9-4c26-4622-8728-b6f5196075f5/subaccount/a5a420d8-58c6-4820-ab11-90c7145da589/subaccountoverview).
 
-👉 Navigate to `Instances and Subscriptions` and open the SAP AI Core instance's service binding.
+👉 Navigate to `Instances and Subscriptions` and open the **SAP AI Core** instance's service binding.
 
 ![Service Binding in the BTP Cockpit](images/service_binding.png)
 
@@ -141,3 +145,10 @@ pip install --require-virtualenv generative-ai-hub-sdk[all] langchain-experiment
 [Next exercise](03-prompt-llm.ipynb)
 
 ![BAS exercise 3](images/bas_exercises.png)
+
+## (Optional) Python in SAP Business Application Studio
+
+To learn more about using Python in SAP BAS, check out these blog posts on SAP Community:
+- [Using Python in SAP Business Application Studio](https://community.sap.com/t5/technology-blog-posts-by-sap/using-python-in-sap-business-application-studio-my-notes/ba-p/14155516)
+- [Using Jupyter in SAP Business Application Studio](https://community.sap.com/t5/technology-blog-posts-by-sap/using-jupyter-in-sap-business-application-studio-my-notes/ba-p/14167294)
+- [Using conda-forge in SAP Business Application Studio](https://community.sap.com/t5/technology-blog-posts-by-sap/using-conda-forge-in-sap-business-application-studio-my-notes/ba-p/14169956)
