@@ -50,14 +50,14 @@ You can also add a `System Message` to describe the role or give more informatio
 
 1. **Zero shot**:
    ```
-   The capital of Germany is:
+   The capital of Poland is:
    ```
 2. **Few shots**:
    ```
    France - Paris
    Canada - Ottawa
    Ukraine - Kyiv
-   Georgia - 
+   Australia - 
    ```
 3. **Chain of thought** (Copy the WHOLE BLOCK into the chat window):
    ```
@@ -115,7 +115,7 @@ The parameters you were able to set in the `Chat` can also be set here. Addition
 
 ## Deploy a proxy of the multi-modal LLM via the Model Library
 
-In exercise [03-prompt-llm](exercises/03-prompt-llm.ipynb) you will also need a deployment of the **GPT-4o Mini** model, because we will use openAI's API directly and also use that model for a Retrieval Augmented Generation (RAG) workflow later.
+In exercise [03-prompt-llm](exercises/03-prompt-llm.ipynb) you will also need a deployment of the **GPT-4.1 mini** model, because we will use openAI's API directly and also use that model for a Retrieval Augmented Generation (RAG) workflow later.
 
 ![Model Library 1/3](images/model-library.png)
 
