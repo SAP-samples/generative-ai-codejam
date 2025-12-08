@@ -34,9 +34,9 @@ SAP AI Core tenants use [resource groups](https://help.sap.com/docs/sap-ai-core/
 
 👉 Go back to **Workspaces**.
 
-👉 Select your workspace (like `codejam-kuwait`) and your resource group  (like `ai-codejam-kuwait`).
+👉 Select your workspace (like `codejam-kuwait`) and your resource group  (like `ai-codejam-kuwait-Company`).
 
-👉 Make sure it is set as a context. The proper name of the context, like `codejam-kuwait (ai-codejam-kuwait)` should show up at the top next to SAP AI Launchpad.
+👉 Make sure it is set as a context. The proper name of the context, like `codejam-kuwait (ai-codejam-kuwait-YourCompany)` should show up at the top next to SAP AI Launchpad.
 
 ☝️ You will need the name of your resource group in [Exercise 04-create-embeddings](04-create-embeddings.ipynb).
 
