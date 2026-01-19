@@ -120,7 +120,7 @@ source ~/projects/generative-ai-codejam/env/bin/activate
 👉 You will also need the [pydf package](https://pypi.org/project/pypdf/) and [wikipedia](https://pypi.org/project/wikipedia/).
 
 ```bash
-pip install --require-virtualenv -U  "sap-ai-sdk-gen[all]" 'langchain-hana==0.2.2' scipy "pypdf!=6.6.0" wikipedia​
+pip install --require-virtualenv -U  "sap-ai-sdk-gen[all]" "langchain-hana==0.2.2" scipy "pypdf!=6.6.0" wikipedia​
 ```
 
 ## From now on, continue the exercises in BAS
