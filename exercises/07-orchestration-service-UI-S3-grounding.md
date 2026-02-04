@@ -35,37 +35,49 @@ This YouTube video ([AI Foundation: Orchestration workflow with grounding using 
 
 ## [3/3] Build an Orchestration Workflow with your Grounding Pipeline
 
-👉 Go to **Orchestration**. At the top you now see the different modules of the orchestration service. First configure the **Grounding** module as instructed below.
+👉 Expand Generative AI Hub and select Orchestration from the menu list to see the Orchestration Workflow.
 
-👉 The Input variable will hold your user input, question or query.
+👉 The Orchestration Configurations page will open, where any existing orchestration workflow configurations are displayed.
 
-👉 The Output variable will hold the text chunk(s) that are retrieved from your grounding pipeline.
+👉 Select the **Create** button to create a new configuration.
 
-👉 Select your pipeline and go to **Templating**.
+![orchestration create](images/Orchestration-Create.png)
 
-![orchestration 1](images/orchestration-1.png)
+👉 The Orchestration Configuration page will open where you can configure multiple settings for a range of different modules such as **Grounding, Data Masking, Filtering and Tanslation**.
 
-👉 Add the input variable `grounding_input_variable_1` from the previous step to the template.
+![orchestration configuration](images/Orchestration-TurnOn_AdvancedModules.png)
 
-👉 Finalize your prompt template by specifying question and context. Add any other information that could be helpful for the LLM and your use case.
+👉 Toggle the **Advanced setting** to ON to see the different modules available. You will notice that some of these are mandatory, while others are optional:
 
-![orchestration 2](images/orchestration-2.png)
+👉 The **Input** variable will hold your user input, question or query.
 
-👉 Make sure to either configure all of the other modules or turn them off. You can add **Input/Output Translation**, **Data Masking**, **Input/Output Filtering**
+👉 The **Output** variable will hold the text chunk(s) that are retrieved from your grounding pipeline.
 
-![orchestration 3](images/orchestration-3.png)
+👉 Enable the **Grounding Management** option
 
-👉 You need to select a model you want to use under **Model Configuration**.
+![orchestration Grounding Enable](images/Orchestration-TurnOn_AdvancedModules_DocumentGrounding.png)
 
-![orchestration 4](images/orchestration-4.png)
+👉 Set **Input**, **Output** variable and select the **pipeline**
 
-👉 Once all of the modules are configured or disabled you can **Test** the workflow.
+![orchestration Grounding Enable](images/Orchestration-SetInput-Output-Pipeline.png)
 
-![orchestration 5](images/orchestration-5.png)
+👉 Make sure to either configure all of the other modules or turn them off. You can add **Input/Output Translation**, **Data Masking**, **Input/Output Filtering** by enabling the toggle option next to them.
+ 
+👉 You can to select a **model** you want to use under **Model Configuration**.
 
-👉 Add your question and run the orchestration workflow. Also check the **Trace** to understand more about your query. You just build the same RAG (retrieval-augmented generation) use case as in exercise [06-RAG](06-RAG.ipynb).
+![orchestration Select Model](images/Orchestration-SelectModel.png)
+
+👉 Once all of the modules are configured or disabled you can **Run** the workflow.
+
+![orchestration Ask Query](images/Orchestration-AskQuery.png)
+
+👉 Add your question and run the orchestration workflow. You just build the same RAG (retrieval-augmented generation) use case as in exercise [06-RAG](06-RAG.ipynb).
 
 ![orchestration 6](images/orchestration-6.png)
+
+👉 Give your configuration the name **Grounding_Configuration**, select **orchestration** as the Scenario Name and then select **Save**.
+
+![orchestration Save config](images/Orchestration_GroundingConfig_Save.png)
 
 > 👉 For the next exercises go to **Workspaces** and select your own resource groups again!
 
