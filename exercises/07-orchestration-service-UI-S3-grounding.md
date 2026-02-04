@@ -57,7 +57,7 @@ This YouTube video ([AI Foundation: Orchestration workflow with grounding using 
 
 ![orchestration Grounding Enable](images/Orchestration-TurnOn_AdvancedModules_DocumentGrounding.png)
 
-👉 Set **Input**, **Output** variable and select the **pipeline**
+👉 Set **Input**, **Output** variable and select the **pipeline**. The option to choose **pipeline** will appear only if you are in the **s3-grounding** workspace.
 
 ![orchestration Grounding Enable](images/Orchestration-SetInput-Output-Pipeline.png)
 
