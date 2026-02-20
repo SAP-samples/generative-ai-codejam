@@ -33,7 +33,7 @@ The instructor will start you on the first exercise, and that's the only one you
 09. [Orchestration service - grounding](exercises/09-orchestration-service-grounding.ipynb)
 10. [Chatbot with Memory](exercises/10-chatbot-with-memory.ipynb)
 11. [Your Chatbot](exercises/11-your-chatbot.ipynb)
-12. [OPTIONAL: AI Agents](exercises/12-ai-agents.ipynb)
+12. [OPTIONAL: AI Agents](https://community.sap.com/t5/artificial-intelligence-blogs-posts/i-built-an-ai-agent-with-litellm-crewai-and-sap-rpt-1-here-s-what-actually/ba-p/14315663)
 
 ## Feedback
 
